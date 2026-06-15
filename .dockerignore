@@ -1,0 +1,10 @@
+.git
+.github
+modules
+documentation
+*.md
+*.png
+*.tf
+*.tfvars
+.terraform
+.terraform.lock.hcl
