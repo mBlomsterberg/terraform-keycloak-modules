@@ -25,6 +25,5 @@ jobs:
       actions: write 
       contents: write
     uses: mBlomsterberg/hanayama-workflows/.github/workflows/reusable_release.yml@main
-    secrets: 
-      github-token: ${{secrets.PAT}}
+    secrets: inherit
           
